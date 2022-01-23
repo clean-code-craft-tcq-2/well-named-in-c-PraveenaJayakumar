@@ -9,7 +9,7 @@ void To_print_WiringManualData(void){
     {
         for(MinorColor = 0; MinorColor < MaxPossibleColorsInMajorOrMinor; MinorColor++)
         {
-             print_data(colorCode_order,MajorColorNames[MajorColor],MinorColorNames[MinorColor_index]);
+             print_data(colorCode_order,MajorColorNames[MajorColor],MinorColorNames[MinorColor]);
              colorCode_order++;
         }
     }
