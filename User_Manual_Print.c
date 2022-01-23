@@ -9,12 +9,6 @@ void To_print_WiringManualData(void){
     {
         for(MinorColor = 0; MinorColor < MaxPossibleColorsInMajorOrMinor; MinorColor++)
         {
-             printf("\n*********************");
-             printf("\n Major Color : %s  ", MajorColorNames[MajorColor_index]);
-             printf("\n Minor Color : %s  ", MinorColorNames[MinorColor_index]);
-             printf("\n Color Code  : %d  ", colorCode);
-             printf("\n*********************");
-
              print_data(colorCode_order,MajorColorNames[MajorColor],MinorColorNames[MinorColor_index]);
              colorCode_order++;
         }
