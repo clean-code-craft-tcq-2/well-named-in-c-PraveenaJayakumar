@@ -11,6 +11,13 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
+const char* MajorColorNames[] = {
+    "White", "Red", "Black", "Yellow", "Violet"
+};
+const char* MinorColorNames[] = {
+    "Blue", "Orange", "Green", "Brown", "Slate"
+};
+
 void To_print_WiringManualData(void);
 void print_data(int codenum, char *Majorcolor , char *Minorcolor);
 
