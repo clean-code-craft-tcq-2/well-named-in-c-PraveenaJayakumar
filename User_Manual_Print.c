@@ -24,8 +24,8 @@ void To_print_WiringManualData(void){
 void print_data(int codenum, char *Majorcolor , char *Minorcolor)
 {
              printf("\n*********************");
-             printf("\n Major Color : %s  ", MajorColor);
-             printf("\n Minor Color : %s  ", MinorColor);
+             printf("\n Major Color : %s  ", Majorcolor);
+             printf("\n Minor Color : %s  ", Minorcolor);
              printf("\n Color Code  : %d  ", colornum);
              printf("\n*********************");
 }
