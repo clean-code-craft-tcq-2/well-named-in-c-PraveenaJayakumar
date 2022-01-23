@@ -10,6 +10,9 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
+void To_print_WiringManualData(void);
+void print_data(int codenum, char *Majorcolor , char *Minorcolor);
+
 void testNumberToPair( int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
